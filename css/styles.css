@@ -1,0 +1,20 @@
+
+:root{
+    --bg1: #eb0505;
+    --bg2: hwb(0 0% 100%);
+    --muted: #94a3b8;
+    --p1: #fa0000;
+    --p2: #ff7b00;
+    --p3: #00ff00;
+    --card-bg: rgba(255,255,255,0.04);
+    --glass: rgba(255,255,255,0.03);
+    --radius: 12px;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+    margin:0;font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,Arial;
+    background: linear-gradient(180deg,var(--bg1),var(--bg2));color:#fff;
+    display:flex;align-items:center;justify-content:center;padding:20px;
+}
