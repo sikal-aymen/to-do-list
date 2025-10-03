@@ -8,7 +8,6 @@
 </head>
 <body>
   <div class="background"></div>
-
   <div class="app" role="application">
     <header class="header">
       <div class="left-head">
@@ -21,8 +20,6 @@
       </div>
     </header>
   <script src="/js/script.js" defer></script>
-</body>
-</html>
 <main class="main">
       <section class="tasks-panel" aria-live="polite">
         <div class="controls">
@@ -35,7 +32,6 @@
                 <option value="done">Done</option>
               </select>
             </label>
-
             <label>Priority:
               <select id="priorityFilter" aria-label="Filter by priority">
                 <option value="all">All</option>
@@ -44,7 +40,6 @@
                 <option value="p3">P3</option>
               </select>
             </label>
-
             <label>Sort by:
               <select id="sortSelect" aria-label="Sort tasks">
                 <option value="created_desc">Newest</option>
@@ -54,3 +49,12 @@
               </select>
             </label>
           </div>
+          <div class="bulk">
+            <button id="selectAll" class="btn">Select All</button>
+            <button id="clearSelection" class="btn ghost">Clear Sel.</button>
+            <button id="deleteSelected" class="btn danger">Delete Sel.</button>
+            <button id="clearDone" class="btn ghost">Clear Done</button>
+          </div>
+        </div>
+</body>
+</html>
